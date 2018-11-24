@@ -1,0 +1,41 @@
+<!-- Teaching how to use table -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Index Page</title>
+</head>
+<body>
+    <!--- This is a table -->
+    <h1>Table</h1>
+    <table><!-- Table formular-->
+        <thead> <!--Table head-->
+            <tr> <!-- table row-->
+                <th>Name</th> <!-- table column-->
+                <th>Phone</th><!-- Table column-->
+                <th>Email</th>
+            </tr>
+        </thead>
+
+        <tbody> <!-- table body-->
+            <tr>
+                <td>Fred</td>
+                <td>81238123</td>
+                <td><code>fred@gmail.com</code></td><!-- code element makes the word in monospace-->
+        </tbody>
+    </table>
+    </body>
+</html>
+
+<!-- How to insert a line into the table -->
+<!-- learn how to insert lines and insert bg color to the table
+<border> Attribute
+<bgcolor> Attribute
+-->
+<!-- insert code border and bgcolor to <table>-->
+<table border="3" bgcolor="pink"> <!-- update the table element-->
+<!-- Binary is closely related to hex color -->
+
