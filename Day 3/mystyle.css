@@ -1,0 +1,83 @@
+
+
+.my_color{
+    color: green; 
+    text-decoration: none;
+}
+
+.my_font{
+    font-family: Gotham rounded;
+    font-size: 22px; 
+}
+
+a.hover{
+    text-decoration:underline; 
+    color:red; 
+}
+
+.color{
+    text-decoration:none;
+    color:pink;
+}
+
+.color:hover{
+    text-decoration:underline;
+    color: red;
+}
+
+.my_box{
+/*    background-color:pink; 
+    border-top: 10px;
+    border-top-style: dashed;
+    border-top-color: blue; 
+    
+    border-left : 10px;
+    border-left-style: ridge;
+    border-left-color: red ; 
+    
+    border-right: 10px;
+    border-right-style: dotted;
+    border-right-color: green ; 
+
+    border-bottom : 10px;
+    border-bottom-style: solid;
+    border-bottom-color: yellow; 
+*/
+
+
+    background-color: pink;
+    text-align: center;
+    border: 3px solid blue;
+    padding: 100px;
+    margin: 30px auto;  
+    width: 800px; 
+    height: 300px; 
+    background-image: url(image/japan1.jpg);
+    background-size: contain; 
+    background-attachment: fixed;
+    }
+
+
+form{
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    }
+
+.my_input_text{
+    width: 100%;
+    font-size: 20px;
+    margin:3px;
+}
+
+.my_gender{
+    margin: 10px;
+}
+
+.submit{
+    font-size: 20px;
+}
+
+div{
+    font-size:20px;
+}
