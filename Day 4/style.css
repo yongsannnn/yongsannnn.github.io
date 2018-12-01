@@ -7,20 +7,61 @@ h1{
     color: white !important; 
 }
 
-.btn-primary{
-    background-color: violet ;
+.booktitle{
+    color:white !important; 
+    margin-bottom: 110px;
+    font-size: 20px;
 }
 
-.jumbotron{
+.bookdes{
+    color:white;
+}
+
+
+.btn-primary{
+    background-color: skyblue ;
+}
+
+.banner1{
         background-color: cadetblue;
 }
 
 p {
-    color: green; 
+    color: white; 
 }
 
 .btn{
     border: 1px solid white;
     background-color: skyblue;
     color:white;  
+}
+
+.my_icon_color{
+    color: red; 
+}
+.footer_margin{
+    margin-top: 50px; 
+}
+.row4_margin{
+    margin-bottom: 50px; 
+}
+.row3_margin{
+    margin-bottom: 50px; 
+}
+
+.my_link:hover{
+    text-decoration:none;
+}
+.header-space{
+    margin-bottom:60px;
+}
+
+.thumb1 {
+    background-image: url(image/book3.jpg);
+    background-size: cover;
+    height: 280px;
+}
+
+.loginbtn{
+    margin-right: 10px;
 }
