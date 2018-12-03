@@ -8,22 +8,40 @@ h1{
 }
 
 .booktitle{
-    color:white !important; 
-    margin-bottom: 110px;
+    color:black !important; 
+    margin-bottom: 140px;
     font-size: 20px;
 }
 
 .bookdes{
-    color:white;
+    color:black;
 }
 
+.booktitle1{
+    color:white !important; 
+    margin-bottom: 140px;
+    font-size: 20px;
+}
+
+.bookdes1{
+    color:white;
+}
 
 .btn-primary{
     background-color: skyblue ;
 }
 
 .banner1{
-        background-color: cadetblue;
+        background-image: url(image/Banner1.jpg);
+        height: 500px;
+        background-size: cover;
+}
+
+.bannertext{
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    font-family: gotham rounded;
 }
 
 p {
@@ -33,7 +51,13 @@ p {
 .btn{
     border: 1px solid white;
     background-color: skyblue;
-    color:white;  
+    color:black;
+    font-weight: bold;  
+}
+
+.btn_info_3{
+    color: white;
+
 }
 
 .my_icon_color{
@@ -57,6 +81,16 @@ p {
 }
 
 .thumb1 {
+    background-image: url(image/book1.jpg);
+    background-size: cover;
+    height: 280px;
+
+}.thumb2 {
+    background-image: url(image/book2.jpg);
+    background-size: cover;
+    height: 280px;
+}
+.thumb3 {
     background-image: url(image/book3.jpg);
     background-size: cover;
     height: 280px;
