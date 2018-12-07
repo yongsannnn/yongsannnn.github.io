@@ -84,3 +84,43 @@ while(step<numbers.length){
 
     step = step + 1;
 }
+
+
+var numbers2= [1,2,3,4,5,6,7,8,9,10]
+
+for (var aa = 0; aa < numbers2.length; aa++){
+
+    var isEven2 = numbers2[aa] % 2;
+
+    if(isEven2 == 0){ 
+    console.log(numbers2[aa] + " " + "is an even number");
+    } 
+    else{
+        console.log(numbers2[aa] + " " + "is an odd number");
+    }
+
+}       
+
+
+var collections = [];
+console.log(collections);
+collections.push ("Test");
+console.log(collections);
+collections.push("Test2");
+console.log(collections);
+
+
+var myCollections =[ ];
+function addMe(){
+    var myText= document.getElementById("my_text").value;
+
+    myCollections.push(myText);
+    document.getElementById("myResult").innerHTML=""; //add in later
+    for(var ab = 0; ab < myCollections.length; ab++){
+        var currValue = myCollections[ab] + "<br>";
+        var currResultValue = document.getElementById("myResult").innerHTML
+
+        document.getElementById("myResult").innerHTML=currResultValue + currValue;
+    }
+
+}
